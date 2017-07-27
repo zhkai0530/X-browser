@@ -1,0 +1,183 @@
+html{
+	height:100%;
+}
+.footer{
+	width:100%;
+	margin:auto;
+}
+.footer p{
+	/* width:7.81rem; */
+	margin:auto;
+	text-align: center;
+	color:#525368;
+	font-size: 0.59rem;
+	font-family: "PingFang-SC-Regular";
+	line-height: 1.07rem;
+	padding-top:2.4rem;
+}
+.footer .end{
+	padding-bottom: 0.8rem;
+	padding-top: 0;
+}
+.share{
+	display: none;
+}
+@media (min-width:768px){
+	.footer{
+		width:100%;
+		background:transparent;
+		margin-top:2.67rem;
+	}
+	.copy{
+		float:left;
+	}
+	.copy p{
+		font-size: 1.33rem;
+		line-height: 1.83rem;
+		padding:0;
+		font-family: "PingFang-SC-Regular";
+		color:#525368;
+		text-align: left;
+	}
+	.footer .copy p{
+		padding-top:2.42rem;
+	}
+	.footer .copy .end{
+		padding-top:0.25rem;
+		padding-bottom: 2.42rem;
+	}
+	.share{
+		display: block;
+		float:right;
+		margin-top:2.08rem;
+		margin-right:-1.33rem;
+	}
+	.share li{
+		float:left;
+	}
+	.share li a{
+		display: inline-block;
+		width:5.33rem;
+		height:5.33rem;
+	}
+	.footer .share li{
+		width:5.33rem;
+		height:5.33rem;
+		float:left;
+	}
+	.footer .tieba{background: url("../images/PC/tieba.png") no-repeat center;}
+	.footer .tieba:hover{
+		animation:tieba 1s;
+		-webkit-animation:tieba 1s;
+		-moz-animation:tieba 1s;
+		-ms-animation:tieba 1s;
+		animation-fill-model:forwards;
+		-webkit-animation-fill-mode:forwards;
+	}
+
+	.footer .facebook{background: url("../images/PC/facebook.png") no-repeat center;}
+	.footer .facebook:hover{
+		animation:facebook 1s;
+		-webkit-animation:facebook 1s;
+		-moz-animation:facebook 1s;
+		-ms-animation:facebook 1s;
+		animation-fill-model:forwards;
+		-webkit-animation-fill-mode:forwards;
+	}
+
+	.footer .sina{background: url("../images/PC/weibo.png") no-repeat center;}
+	.footer .sina:hover{
+		animation:sina 1s;
+		-webkit-animation:sina 1s;
+		-moz-animation:sina 1s;
+		-ms-animation:sina 1s;
+		animation-fill-model:forwards;
+		-webkit-animation-fill-mode:forwards;
+	}
+
+	/*贴吧动画*/
+	@keyframes tieba
+	{
+		0% {background: url("../images/PC/tieba.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/tiebaPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/tieba-hover.png") no-repeat center;}
+	}
+
+	@-moz-keyframes tieba /* Firefox */
+	{
+		0% {background: url("../images/PC/tieba.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/tiebaPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/tieba-hover.png") no-repeat center;}
+	}
+
+	@-webkit-keyframes tieba /* Safari 和 Chrome */
+	{
+		0% {background: url("../images/PC/tieba.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/tiebaPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/tieba-hover.png") no-repeat center;}
+	}
+
+	@-o-keyframes tieba /* Opera */
+	{
+		0% {background: url("../images/PC/tieba.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/tiebaPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/tieba-hover.png") no-repeat center;}
+	}
+/*脸书动画*/
+	@keyframes facebook
+	{
+		0% {background: url("../images/PC/facebook.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/facebookPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/facebook-hover.png") no-repeat center;}
+	}
+
+	@-moz-keyframes facebook /* Firefox */
+	{
+		0% {background: url("../images/PC/facebook.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/facebookPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/facebook-hover.png") no-repeat center;}
+	}
+
+	@-webkit-keyframes facebook /* Safari 和 Chrome */
+	{
+		0% {background: url("../images/PC/facebook.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/facebookPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/facebook-hover.png") no-repeat center;}
+	}
+
+	@-o-keyframes facebook /* Opera */
+	{
+		0% {background: url("../images/PC/facebook.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/facebookPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/facebook-hover.png") no-repeat center;}
+	}
+/*微博动画*/
+	@keyframes sina
+	{
+		0% {background: url("../images/PC/weibo.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/weiboPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/weibo-hover.png") no-repeat center;}
+	}
+
+	@-moz-keyframes sina /* Firefox */
+	{
+		0% {background: url("../images/PC/weibo.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/weiboPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/weibo-hover.png") no-repeat center;}
+	}
+
+	@-webkit-keyframes sina /* Safari 和 Chrome */
+	{
+		0% {background: url("../images/PC/weibo.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/weiboPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/weibo-hover.png") no-repeat center;}
+	}
+
+	@-o-keyframes sina /* Opera */
+	{
+		0% {background: url("../images/PC/weibo.png") no-repeat center;}
+		/* 50% {background: url("../images/PC/weiboPC.png") no-repeat center;} */
+		100% {background: url("../images/PC/weibo-hover.png") no-repeat center;}
+	}
+}
+}

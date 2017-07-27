@@ -1,0 +1,136 @@
+body{
+	background-color: #f3f3f9;
+}
+.container-text{
+	background-color: #fff;
+	margin-top: 3.21rem;
+}
+.text-box{
+	padding-top: 1.16rem;
+	margin-bottom: 2.56rem;
+	padding:1.16rem 5.33% 0 5.33%;
+}
+.text-box .tit{
+	color:#63636a;
+	font-size: 1.07rem;
+	line-height: 1.49rem;
+	margin-bottom: 0.53rem;
+	font-family: "PingFang-SC-Semibold";
+}
+.container-text .text{
+	background: #fff;
+}
+.text-box .text-content{
+	font-size: 0.75rem;
+	color:#63636a;
+	letter-spacing: 0.08rem;
+	line-height: 1.33rem;
+	font-family: "PingFang-SC-Regular";
+}
+.list-box{
+	background: #898994;
+	padding-bottom:0.53rem;
+}
+.list-box .tit{
+	font-size: 0.85rem;
+	color:#fff;
+	line-height: 1.2rem;
+	padding:0.75rem 5.33% 0.72rem 5.33%;
+	border-left:4px solid transparent;
+}
+.list-box .list li{
+	padding:0.61rem 0 0.61rem 0;
+}
+.list-box .list a{
+	text-decoration: none;
+	color:#fff;
+	font-family: "PingFang-SC-Regular";
+	font-size: 0.8rem;
+	line-height: 1.12rem;
+	display: inline-block;
+	padding-left:5.33%;
+	padding-right:5.33%;
+	border-left:4px solid transparent;
+}
+.list-box .list a:hover{
+	text-decoration: none;
+	color:#fff;
+	border-left:4px solid #fff;
+}
+.footer .copy p{
+	padding-top:2.4rem;
+}
+.footer .copy .end{
+	padding-top:0;
+}
+@media (min-width: 768px){
+	body{
+		background: #f3f3f9;
+	}
+	.head{
+		background: transparent;
+		box-shadow: none;
+	}
+	.container-text{
+		background-color: transparent;
+		margin-top: 0;
+	}
+	.text-box{
+		width:70%;
+		margin-left:3.16%;
+		float:left;
+		margin-top: 0;
+		background: #fff;
+		padding:0;
+	}
+	.list-box{
+		width:19.25%;
+		float:left;
+		background: #f3f3f9;
+		margin-left:4%;
+	}
+	.text-box .tit{
+		font-size: 2.5rem;
+		padding:3.25rem 4.76% 3.25rem 4.76%;
+		line-height: 3.2rem;
+		font-family: "PingFang-SC-Semibold";
+		margin-bottom: 0;
+	}
+	.text-box .text-content{
+		color:#63636a;
+		font-size: 1.33rem;
+		letter-spacing: 0.14rem;
+		line-height: 2.92rem;
+		font-family: "PingFang-SC-Regular";
+		padding:0rem 4.76% 0.45rem 4.76%;
+	}
+	.list-box .list ul li{
+		width:100%;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		white-space: nowrap;
+	}
+	.list-box .tit{
+		font-size: 2rem;
+		line-height: 2.75rem;
+		color:#63636a;
+		padding:1.17rem 0 1.08rem 0.83rem;
+		font-family: "PingFang-SC-Semibold";
+	}
+	.list-box .list a{
+		font-family: "PingFang-SC-Regular";
+		font-size: 1.5rem;
+		color: #999ba2;
+		margin:1.08rem 0 1rem 0;
+	}
+	.list-box .list a:hover{
+		border-left:4px solid #76777d;
+		color:#63636a;
+	}
+	.footer .copy{
+		margin-left: 12%;
+	}
+	.footer .share{
+		margin-right: 12%;
+	}
+}
