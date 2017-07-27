@@ -15,20 +15,21 @@ $(function(){
 
 		})
 	}
+	addScript();
 	$(".panel-collapse").on("show.bs.collapse",function(){
-		addScript();
+// 		addScript();
 		$(this).prev().find("img").eq(0).attr("src","images/H5/h5-hide.png");
 		$(this).prev().find("h4").eq(0).css("background","rgba(255,255,255,0)");
 	})
 	$(".panel-collapse").on("shown.bs.collapse",function(){
-		removeScript();
+// 		removeScript();
 	})
 	$(".panel-collapse").on("hide.bs.collapse",function(){
-		addScript();
+// 		addScript();
 		$(this).prev().find("img").eq(0).attr("src","images/H5/h5-show.png");
 		$(this).prev().find("h4").eq(0).css("background","rgba(255,255,255,1)");
 	})
 	$(".panel-collapse").on("hidden.bs.collapse",function(){
-		removeScript();
+// 		removeScript();
 	})
 })
